@@ -54,7 +54,18 @@ solar energy generated for each of the states was required. Also, every state ha
 #### Missing values: The total energy dataset did not have any missing value. The solar energy dataset had missing values for small-scale solar. However, in many cases, those states had utility-scale solar energy to be very low. It is safe to assume the small-scale residential solar generation would be negligible, especially as a fraction of the total electricity generated. It was considered to be zero.
 
 # Data Modeling
-TBC
+
+## Question 1
+
+I conducted an OLS regression and checked the goodness of fit. The r2 was 0.0086. This confirmed my thinking that there was no correlation at all. So, I decided the best way to show this data would be as a bar plot, with one category in descending order and the other along it. It would be easily seen that there was no trend at all, amongst the dependent variable.
+
+## Question 2
+
+For the second question, the idea was to show contrast between the energy-economic factors, while the state incentive remained the same. A scatter plot would not help as there would be no useful data to ascertain. I knew each of the straight lines represented one state and it's incentives. So, I used the simple boxplot, to display that straight line. However, energy-economic factors are the independent variables (features). This cause the boxplots to be horizontal, which led to my second visualization, showing boxplot of energy-economic factors vs incentives/state name, making the correct distinction. Also, not all states
+
+## Question 3
+
+Again, there was no trend between the air quality and fraction of solar energy, as solar fraction were all less than 10% which means not significant to displace polluting sources of energy, and air quality is dependent on a lot of ther factors other than electricity generation, e.g. transportation. I thought a good idea would be to also the spatial positioning of each of the states, to compare the industrialized and urbanized states on the coasts versus the ones in the heartland and adjoining states, which have much lesser solar fraction, yet do not have terrible air quality.
 
 # Evaluate the Results
 The major results of the analysis are:
