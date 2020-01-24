@@ -34,7 +34,7 @@ The major questions I gained to seek an understanding about were:
 # Data Understanding
 Here, I have used three different datasets to answer the questions. The dataset majorly used is Solar Energy Evolution and Diffusion Studies (SEEDS) dataset provided by NREL, which has solar energy incentives combined with typical census features for the year 2015. The other two datasets are State Energy Data System (SEDS) dataset. They are used to find state-level annual solar energy production, and its comparison to the total electricity production in the area.
 
-# Prepare Data
+# Data Preparation
 This needs to be broken down for each of the three questions as each of them uses different slices of data.
 
 ## Question 1
@@ -67,7 +67,7 @@ For the second question, the idea was to show contrast between the energy-econom
 
 Again, there was no trend between the air quality and fraction of solar energy, as solar fraction were all less than 10% which means not significant to displace polluting sources of energy, and air quality is dependent on a lot of ther factors other than electricity generation, e.g. transportation. I thought a good idea would be to also the spatial positioning of each of the states, to compare the industrialized and urbanized states on the coasts versus the ones in the heartland and adjoining states, which have much lesser solar fraction, yet do not have terrible air quality.
 
-# Evaluate the Results
+# Results Evaluation
 The major results of the analysis are:
 1. The hottest regions are not necessarily the most suitable for solar energy development
 2. States provide uniform economic incentives to each of the census tracts despite wide disparities in energy-economic factors
